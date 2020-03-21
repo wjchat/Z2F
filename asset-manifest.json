@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Z2F/static/css/main.2abc2c2c.chunk.css",
+    "main.js": "/Z2F/static/js/main.7af2afa3.chunk.js",
+    "main.js.map": "/Z2F/static/js/main.7af2afa3.chunk.js.map",
+    "runtime-main.js": "/Z2F/static/js/runtime-main.ec7a14db.js",
+    "runtime-main.js.map": "/Z2F/static/js/runtime-main.ec7a14db.js.map",
+    "static/js/2.954738d5.chunk.js": "/Z2F/static/js/2.954738d5.chunk.js",
+    "static/js/2.954738d5.chunk.js.map": "/Z2F/static/js/2.954738d5.chunk.js.map",
+    "index.html": "/Z2F/index.html",
+    "precache-manifest.37a74d04a35282d644281cb010e7e292.js": "/Z2F/precache-manifest.37a74d04a35282d644281cb010e7e292.js",
+    "service-worker.js": "/Z2F/service-worker.js",
+    "static/css/main.2abc2c2c.chunk.css.map": "/Z2F/static/css/main.2abc2c2c.chunk.css.map",
+    "static/js/2.954738d5.chunk.js.LICENSE.txt": "/Z2F/static/js/2.954738d5.chunk.js.LICENSE.txt",
+    "static/media/China.png": "/Z2F/static/media/China.f4247300.png",
+    "static/media/NewYork.png": "/Z2F/static/media/NewYork.d7aca009.png",
+    "static/media/Resources.png": "/Z2F/static/media/Resources.705ce4e8.png",
+    "static/media/Shirt.png": "/Z2F/static/media/Shirt.0847adff.png",
+    "static/media/Uzbek.png": "/Z2F/static/media/Uzbek.d2970ac5.png",
+    "static/media/arrow.svg": "/Z2F/static/media/arrow.90f1a2fd.svg",
+    "static/media/barn.svg": "/Z2F/static/media/barn.bc2ea15f.svg",
+    "static/media/factory.svg": "/Z2F/static/media/factory.c5593287.svg",
+    "static/media/shop.svg": "/Z2F/static/media/shop.96e48f55.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ec7a14db.js",
+    "static/js/2.954738d5.chunk.js",
+    "static/css/main.2abc2c2c.chunk.css",
+    "static/js/main.7af2afa3.chunk.js"
+  ]
+}
