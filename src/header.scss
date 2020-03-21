@@ -1,0 +1,76 @@
+@import "index";
+
+.zero{
+    z-index: 0;
+}
+.one{
+    z-index: 1;
+}
+.nav{
+    z-index: 1;
+    padding: 0;
+    width: 95%;
+    min-width: 320px;
+    max-width: 705px;
+    margin: auto;
+    padding-top: 8%;
+    padding-bottom: 4%;
+    position: fixed;
+    background-color: white;
+    .container:nth-child(1){
+        width: 46%;
+    }    
+    .container:nth-child(2){
+        width: 8%;
+    }    
+    .container:nth-child(3){
+        width: 46%;
+    }
+    .container{
+        display: inline-block;
+        font-family: $font;
+        div{
+            text-align: center;
+            position: relative;
+            display: inline-block;
+            width: 50%;
+            color: #7E587D;
+            .borderBottom{
+                position: absolute;
+                width:30%;
+                height: 1px;
+                background-color: #7E587D;
+                bottom: -9px; 
+                left: 0;
+                right: 0;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+    }
+    .leon{
+        color: $purpOne;
+        font-size: 2em;
+        font-weight: bold;
+        position: relative;
+        text-align: center;
+        cursor: pointer;
+        .border{
+            position: absolute;
+            width:70%;
+            height: 1px;
+            background-color: $purpOne;
+            bottom: -6px; 
+            left: 0;
+            right: 0;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}
+.zero{
+    z-index: 0;
+}
+.one{
+    z-index: 1;
+}

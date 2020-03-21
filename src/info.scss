@@ -1,0 +1,91 @@
+@import 'index';
+$margin: 60px;
+
+.container{
+    width: 95%;
+    margin: auto;
+}
+
+.title{
+    margin-top: 100px;
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    div{
+        display: inline-block;
+    }
+    .t{
+        width: 20%;
+        font-family: $font;
+        margin-right: 3%;
+        margin-left: 3%;
+        
+    }
+    .lines{
+        width: 37%;
+        height: 1px;
+        background: black;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 4px;
+        opacity: 30%;
+    }
+}
+.product{
+    width: 100%;
+    margin-top: $margin;
+    display: flex;
+    justify-content: space-between;
+    div{
+        width: 40%; 
+        vertical-align: top;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .info{
+        ul{
+            padding-top:20%;
+            padding-left: 10%;
+        }
+        li{
+            list-style: none;
+            font-family: $font;
+            font-size: .8rem;
+            font-style: italic;
+            padding-bottom: 15px;
+            opacity: .8;
+        }
+    }
+    
+}
+img{
+    max-width: 100%;
+}
+
+.line{
+    position: absolute;
+    width: 24%;
+    height: 1px;
+    background: black;
+    opacity: 40%;
+    left: 0;
+    right: 0;
+    margin-top: $margin;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.resources{
+    width: 100%;
+    margin-bottom: 80px;
+    h3{
+        width: 100%;
+        text-align: center;
+        margin-top: $margin * 2;
+        margin-bottom: 8%;
+        font-family: $font;
+        font-weight: normal;
+        font-size: 1rem;
+    }
+}

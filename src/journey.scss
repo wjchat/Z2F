@@ -1,0 +1,42 @@
+@import "index";
+
+$margin: 70px;
+
+.containerJ{
+    width: 100%;
+    position: static;
+    .description1{
+        position: static;
+        width: 80%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: $font;
+        font-size: .8rem;
+        line-height: 1rem;
+        opacity: .8;
+        margin-top: 130px;
+    }
+}
+
+.rocContainer{
+    width: 100%;
+    margin-top: $margin;
+    position: static;
+    .arrow{
+        width: 15%;
+        margin: 20px auto;
+        img{
+            max-width: 100%;
+            opacity: .5;
+        }
+    }
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vm;
+    margin-bottom: 100px;
+    z-index: 0;
+}
