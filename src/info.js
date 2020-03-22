@@ -38,7 +38,7 @@ class Info extends React.Component{
                     <div className = "info">
                         <ul>
                             <li>ID: #isa8d7a993ad</li>
-                            <li>Materials: 40% Polyester, 60% Himilayan Cotton</li>
+                            <li>Materials: 40% Polyester, 60% Himalayan Cotton</li>
                             <li>Total Mileage: 203 miles</li>
                             <li>People Involved: 93</li>
                         </ul>
