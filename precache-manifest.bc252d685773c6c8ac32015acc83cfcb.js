@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "11e079ed27dbbe29fbc531ad4d80d823",
+    "revision": "5c9c5e8ce3835c9d184cf958036ce256",
     "url": "/Z2F/index.html"
   },
   {
-    "revision": "85ebfc9e78ba45f7d4da",
-    "url": "/Z2F/static/css/main.2abc2c2c.chunk.css"
+    "revision": "220c93da3c857fdcb0d1",
+    "url": "/Z2F/static/css/2.9905d55a.chunk.css"
   },
   {
-    "revision": "037792c0bbce5825591f",
-    "url": "/Z2F/static/js/2.954738d5.chunk.js"
+    "revision": "2912ce58647dd39710b8",
+    "url": "/Z2F/static/css/main.c0bf14a9.chunk.css"
+  },
+  {
+    "revision": "220c93da3c857fdcb0d1",
+    "url": "/Z2F/static/js/2.0a186fa1.chunk.js"
   },
   {
     "revision": "0bdb97d421f97884a5b69362f0009415",
-    "url": "/Z2F/static/js/2.954738d5.chunk.js.LICENSE.txt"
+    "url": "/Z2F/static/js/2.0a186fa1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "85ebfc9e78ba45f7d4da",
-    "url": "/Z2F/static/js/main.7af2afa3.chunk.js"
+    "revision": "2912ce58647dd39710b8",
+    "url": "/Z2F/static/js/main.ca3999e9.chunk.js"
   },
   {
     "revision": "077c4938f78732a77f31",
