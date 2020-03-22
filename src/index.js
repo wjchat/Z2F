@@ -6,6 +6,11 @@ import Info from './info.js'
 import Journey from "./journey.jsx"
 import { TweenLite, TimelineLite, Cubic } from 'gsap';
 
+import farmMap from './img/Uzbek.png';
+import China from './img/China.png';
+import NYC from './img/NewYork.png';
+
+
 class Frame extends React.Component{
     constructor(props){
         super(props);
@@ -38,6 +43,15 @@ class Frame extends React.Component{
     }
     componentDidMount(){    
         this.tween = TweenLite.from(this.frame, .4, {opacity: 0});
+
+        const img = new Image();
+        img.src = farmMap;    
+        
+        const img2 = new Image();
+        img2.src = China;        
+        
+        const img3 = new Image();
+        img3.src = NYC;
     } 
     zIndex = (i) =>{
         if(i === 1){

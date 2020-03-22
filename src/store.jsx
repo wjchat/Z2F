@@ -4,9 +4,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import "./roc.scss";
-import farm from "./img/shop.svg";
-import farmMap from "./img/NewYork.png";
+import store from "./img/shop.svg";
+import map from "./img/NewYork.png";
 import {TweenLite, Back} from 'gsap';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
+ 
+const Store = ({ image }) => (
+  <LazyLoadImage
+    alt={'shirt'}
+    effect="blur"
+    src={store} />
+);
+const Map = ({ image }) => (
+  <LazyLoadImage
+    alt={'shirt'}
+    effect="blur"
+    src={map} />
+);
 
 
 class UnClicked extends React.Component{
@@ -24,7 +39,7 @@ class UnClicked extends React.Component{
                  24 Employees
                 </p>
                 <div className = "img">
-                    <img src = {farm} /> 
+                    <img src = {store} /> 
                 </div>
             </div>
         )
@@ -87,13 +102,13 @@ class Clicked extends React.Component{
                     </div>
                     <div className = "thirdRow">
                         <div>Address</div>
-                        <div>Economic Development Zone, <br />
-                            Jinzhai County Lu’an City,, <br />
-                            China</div>
+                        <div>33 Greene St, New York, , <br />
+                            NY 10013, <br />
+                            USA</div>
                     </div>
                 </div>
                 <div className = "image">
-                    <img src = {farmMap} />
+                    <Map />
                 </div>
             </div>
         )

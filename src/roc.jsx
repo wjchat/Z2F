@@ -7,7 +7,21 @@ import "./roc.scss";
 import farm from "./img/barn.svg";
 import farmMap from "./img/Uzbek.png";
 import {TweenLite, Back} from 'gsap';
-
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
+ 
+const Farm = ({ image }) => (
+  <LazyLoadImage
+    alt={'shirt'}
+    effect="blur"
+    src={farm} />
+);
+const Map = ({ image }) => (
+  <LazyLoadImage
+    alt={'shirt'}
+    effect="blur"
+    src={farmMap} />
+);
 
 class UnClicked extends React.Component{
     constructor(props){
@@ -24,7 +38,7 @@ class UnClicked extends React.Component{
                    245 Employees
                 </p>
                 <div className = "img">
-                    <img src = {farm} /> 
+                    <Farm /> 
                 </div>
             </div>
         )
@@ -93,7 +107,7 @@ class Clicked extends React.Component{
                     </div>
                 </div>
                 <div className = "image">
-                    <img src = {farmMap} />
+                    <Map />
                 </div>
             </div>
         )

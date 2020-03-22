@@ -7,6 +7,10 @@ import "./journey.scss";
 import arrow from "./img/arrow.svg";
 import TweenLite from 'gsap';
 
+import farmMap from './img/Uzbek.png';
+import China from './img/China.png';
+import NYC from './img/NewYork.png';
+
 class Journey extends React.Component{
     constructor(props){
         super(props);
@@ -32,6 +36,16 @@ class Journey extends React.Component{
             });
             
         }
+    }   
+    componentDidMount(){
+        const img = new Image();
+        img.src = farmMap;    
+        
+        const img2 = new Image();
+        img2.src = China;        
+        
+        const img3 = new Image();
+        img3.src = NYC;
     }
     render(){
         return(

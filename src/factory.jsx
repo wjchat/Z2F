@@ -4,10 +4,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import "./roc.scss";
-import farm from "./img/factory.svg";
+import factory from "./img/factory.svg";
 import farmMap from "./img/China.png";
 import {TweenLite, Back} from 'gsap';
-
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
+ 
+const Factory = ({ image }) => (
+  <LazyLoadImage
+    alt={'shirt'}
+    effect="blur"
+    src={factory} />
+);
+const China = ({ image }) => (
+  <LazyLoadImage
+    alt={'shirt'}
+    effect="blur"
+    src={farmMap} />
+);
 
 class UnClicked extends React.Component{
     constructor(props){
@@ -24,7 +38,7 @@ class UnClicked extends React.Component{
                  1328 Employees
                 </p>
                 <div className = "img">
-                    <img src = {farm} /> 
+                    <Factory /> 
                 </div>
             </div>
         )
@@ -88,12 +102,12 @@ class Clicked extends React.Component{
                     <div className = "thirdRow">
                         <div>Address</div>
                         <div>Economic Development Zone, <br />
-                            Jinzhai County Lu’an City,, <br />
+                            Jinzhai County Lu’an City, <br />
                             China</div>
                     </div>
                 </div>
                 <div className = "image">
-                    <img src = {farmMap} />
+                    <China />
                 </div>
             </div>
         )
